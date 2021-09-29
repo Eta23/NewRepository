@@ -1,0 +1,7 @@
+Feature: Log in button on page
+
+Scenario: User log in to account via Log in button
+
+Given User is on the main page
+When User click on the Log in button 
+Then User should be redirected to log in page
